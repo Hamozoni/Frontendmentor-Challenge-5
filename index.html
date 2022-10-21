@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&family=DM+Sans:ital,wght@0,700;1,400&family=Kumbh+Sans:wght@400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,300;0,600;1,700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" class="app">
+  <div class="container">
+    <header>
+      <div class="left">
+        <p>My balance</p>
+        <h2>$921.48</h2>
+      </div>
+      <div class="right">
+        <img src="images/logo.svg" alt="">
+      </div>
+    </header>
+    <main role="dialog" class="main-content">
+      <h3>Spending - Last 7 days</h3>
+      <section class="top">
+        <canvas id="canvas" width="400px" height="250px">
+        </canvas>
+      </section>
+       <h4 class="total">Total this month</h4>
+      <section class="buttom">
+          <h4>$478.33</h4>
+          <div class="left-content">
+            <p>+2.4%</p>
+            <h4>from last month</h4>
+          </div>
+      </section>
+    </main>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mohamed Yahia</a>.
+  </footer>
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>

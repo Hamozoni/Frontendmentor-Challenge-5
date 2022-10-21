@@ -1,0 +1,95 @@
+:root {
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--cream);
+}
+.app .container {
+    max-width: 100%;
+    width: 440px;
+    height: 100vh;
+    margin: auto;
+    padding: 0 15px;
+    margin-top: 80px;
+}
+.app .container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--soft-red);
+    padding: 25px;
+    border-radius: 12px;
+    color: var(--very-pale-orange);
+}
+.app .container header .left p {
+    font-size: 14px;
+}
+.app .container header .left h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+.app .container header .right img {
+    width: 55px;
+}
+.app .container main {
+    background-color: var(--very-pale-orange);
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: var(--dark-brown);
+    
+}
+.app .container main > h3 {
+    font-size: 26px;
+}
+.container main canvas {
+    border-bottom: 2px solid var(--cream);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.container main section.buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container main .total {
+    font-size: 14px;
+    color: var(--medium-brown);
+}
+section.buttom > h4 {
+    font-size: 36px;
+    font-weight: 700;
+}
+section.buttom .left-content p {
+    text-align: end;
+}
+section.buttom .left-content h4 {
+    font-size: 14px;
+    color: var(--medium-brown);
+}
+footer.attribution {
+    text-align: center;
+    background-color: var(--soft-red);
+    padding: 30px 15px;
+    font-weight: bold;
+    color: var(--cream);
+}
+footer.attribution a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--dark-brown)
+}
